@@ -1,0 +1,297 @@
+@font-face {
+  font-family: "Matura MT Script Capitals";
+  src: url(../fuente/MATURASC.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+nav {
+  background-color: #e6cf03;
+  font-family: "Matura MT Script Capitals";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  height: 315px;
+  background-image: url("../img/portadaelden.jpg");
+  background-size: cover;
+  display: grid;
+  text-align: center;
+}
+header h1 {
+  padding: 60px;
+  font-size: 40pt;
+  font-family: "Matura MT Script Capitals";
+  color: rgb(105, 34, 2);
+}
+header p {
+  padding-top: 5%;
+  font-family: "Matura MT Script Capitals";
+  color: rgb(105, 34, 2);
+}
+header .lead {
+  font-size: 30pt;
+}
+
+.animate__animated {
+  --animate-duration: 3s;
+}
+
+body {
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  display: grid;
+}
+
+main {
+  box-sizing: border-box;
+}
+main nav {
+  font-family: "Matura MT Script Capitals";
+  color: rgb(105, 34, 2);
+}
+main h2 {
+  margin: 15px;
+  text-align: center;
+  color: #a09005;
+  font-family: "Matura MT Script Capitals";
+}
+main h3 {
+  margin: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #a09005;
+}
+main p {
+  margin: 15px;
+  color: #a09005;
+  font-weight: 200;
+}
+
+.inicio-titulo {
+  overflow: hide;
+  padding: 0px;
+  margin: 0px;
+}
+
+.inicioBox {
+  background-color: rgb(196, 196, 184);
+  overflow: hide;
+  padding: 15px;
+  margin: 50px;
+  border: 3px solid rgb(153, 44, 11);
+}
+.inicioBox p {
+  color: #a09005;
+}
+
+h2 {
+  color: #a09005;
+}
+
+.sub-menu-horizontal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a09005;
+}
+.sub-menu-horizontal li {
+  display: block;
+  float: left;
+  border-right: 3px solid #5f5e03;
+}
+.sub-menu-horizontal li:last-child {
+  border-right: none;
+}
+.sub-menu-horizontal li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Matura MT Script Capitals";
+  font-size: 25px;
+}
+.sub-menu-horizontal li a:hover {
+  background-color: #e2b845;
+}
+.sub-menu-horizontal a.active {
+  background-color: #524230;
+  color: rgb(201, 199, 77);
+}
+
+.sub-menu {
+  margin-left: 2%;
+  margin-right: 2%;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Matura MT Script Capitals";
+  font-size: 20px;
+}
+.sub-menu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Matura MT Script Capitals";
+  font-size: 25px;
+}
+.sub-menu li a:hover {
+  background-color: #e2b845;
+}
+
+footer {
+  background-color: #a09005;
+  background-image: none;
+  position: relative;
+  bottom: 0pt;
+  width: 100%;
+}
+
+.plataformas {
+  column-gap: normal;
+}
+.plataformas ul {
+  list-style-type: none;
+  margin: 50;
+  padding: 50;
+  overflow: hidden;
+  background-color: #a09005;
+}
+.plataformas li {
+  display: inline;
+  float: left;
+}
+.plataformas li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  line-height: 100px;
+}
+.plataformas li a img {
+  width: 50px;
+}
+
+.container-historia {
+  background-color: rgb(196, 196, 184);
+  overflow: hide;
+  padding: 15px;
+  margin: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  align-items: center;
+  align-content: center;
+}
+.container-historia img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+.container-historia p {
+  text-align: center;
+}
+
+.personajeSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.personajeBox {
+  background-color: rgb(201, 199, 77);
+  overflow: hide;
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
+  margin: 20px;
+  border: 3px solid rgb(0, 0, 0);
+}
+.personajeBox img {
+  width: 250px;
+  height: 300px;
+  float: left;
+  margin: 15px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.personajeText {
+  display: block;
+}
+
+.mapaMundo {
+  width: "800";
+  height: "600";
+  background-color: transparent;
+  overflow: hide;
+  vertical-align: top;
+  padding: 15px;
+  margin: 20px;
+  align-self: center;
+}
+
+.mapaMundo iframe {
+  width: 80%;
+  height: 80%;
+}
+
+.guiaBox {
+  background-color: rgb(201, 199, 77);
+  overflow: hide;
+  display: block;
+  padding: 15px;
+  margin: 20px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.guiaBox p {
+  color: #432183;
+}
+
+.guiaVideosSection {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 50px;
+}
+
+@media (max-width: 576px) {
+  header h1 {
+    padding: 60px;
+    font-size: 40pt;
+    font-family: "Matura MT Script Capitals";
+    color: rgb(105, 34, 2);
+  }
+  header p {
+    padding-top: 5%;
+    font-family: "Matura MT Script Capitals";
+    color: rgb(105, 34, 2);
+  }
+  .personajeSection {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container {
+    text-align: center;
+  }
+  footer {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
